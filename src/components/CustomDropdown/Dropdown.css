@@ -1,0 +1,61 @@
+.default {
+    width: 20px; 
+    height: 20px; 
+    border-radius: 50%; 
+    background-color: grey; 
+    border: none;
+    margin: auto;
+  }
+
+
+.WA537b19e958b06b4fb34d27e3f8ef43bd {
+    width: 20px; 
+    height: 20px; 
+    border-radius: 50%; 
+    background-color: grey; 
+    border: none;
+    margin: auto;
+  }
+
+
+.WAb30cdf5a1aba5b2e1524852d8d0943f4 {
+    width: 20px; 
+    height: 20px; 
+    border-radius: 50%; 
+    background-color: green; 
+    border: none;
+    margin: auto;
+  }
+
+
+.WAbf3c7333d5b5b7d950d0a8522c2edab2 {
+    width: 20px; 
+    height: 20px; 
+    border-radius: 50%; 
+    background-color: red; 
+    border: none;
+    margin: auto;
+  }
+
+.WA5a65d6845afbfc7bc2eafcadecb03711 {
+    width: 20px; 
+    height: 20px; 
+    border-radius: 50%; 
+    background-color: yellow; 
+    border: none;
+    margin: auto;
+  }
+
+
+  .activity {
+    background-color: rgb(6,3,58);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
