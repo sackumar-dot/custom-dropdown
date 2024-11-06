@@ -1,61 +1,88 @@
 .default {
-    width: 20px; 
-    height: 20px; 
-    border-radius: 50%; 
-    background-color: grey; 
-    border: none;
-    margin: auto;
-  }
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: grey;
+  border: none;
+  margin: auto;
+}
 
+.offline {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: grey;
+  border: none;
+  margin: auto;
+}
 
-.WA537b19e958b06b4fb34d27e3f8ef43bd {
-    width: 20px; 
-    height: 20px; 
-    border-radius: 50%; 
-    background-color: grey; 
-    border: none;
-    margin: auto;
-  }
+.available {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: green;
+  border: none;
+  margin: auto;
+}
 
+.unavailable {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: red;
+  border: none;
+  margin: auto;
+}
 
-.WAb30cdf5a1aba5b2e1524852d8d0943f4 {
-    width: 20px; 
-    height: 20px; 
-    border-radius: 50%; 
-    background-color: green; 
-    border: none;
-    margin: auto;
-  }
+.break {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: yellow;
+  border: none;
+  margin: auto;
+}
 
+.activity {
+  background-color: #20304c;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  border-radius: 5px;
+}
 
-.WAbf3c7333d5b5b7d950d0a8522c2edab2 {
-    width: 20px; 
-    height: 20px; 
-    border-radius: 50%; 
-    background-color: red; 
-    border: none;
-    margin: auto;
-  }
+.activity select {
+  background-color: #fff; /* White background for contrast */
+  color: #20304c; /* Matches the container color */
+  padding: 4px 11px;
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px;
+  font-family: inherit;
+  appearance: none; /* Removes default arrow for custom styling */
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+  width: 100%; /* Make it full-width if needed */
+}
 
-.WA5a65d6845afbfc7bc2eafcadecb03711 {
-    width: 20px; 
-    height: 20px; 
-    border-radius: 50%; 
-    background-color: yellow; 
-    border: none;
-    margin: auto;
-  }
+.activity select:hover {
+  border-color: #5a67d8; /* Highlight border color on hover */
+  box-shadow: 0px 0px 5px rgba(90, 103, 216, 0.5); /* Subtle shadow on hover */
+}
 
+.activity select:focus {
+  border-color: #5a67d8;
+  box-shadow: 0px 0px 5px rgba(90, 103, 216, 0.8); /* Stronger shadow on focus */
+}
 
-  .activity {
-    background-color: rgb(6,3,58);
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
+/* Styling individual options */
+.activity option {
+  background-color: #fff; /* White background for options */
+  color: #20304c;
+  padding: 4px 11px;
+}
