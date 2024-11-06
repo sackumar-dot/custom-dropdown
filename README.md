@@ -5,6 +5,10 @@
 ![](/screenshots/3.png)
 ![](/screenshots/4.png)
 
+# Demo
+
+[![Watch the video](https://raw.githubusercontent.com/yourusername/yourrepository/main/assets/thumbnail.jpg)](https://raw.githubusercontent.com/yourusername/yourrepository/main/assets/video.mp4)
+
 ## How to Add the Activity SID to Your Project
 
 1. **Collect the Activity SIDs from Twilio TaskRouter**
@@ -26,7 +30,8 @@
 2. **Create the `.env` File**  
    In the root directory of your React project, create a file named `.env`.
 
-3. **Add the Environment Variables**  
+3. **Add the Environment Variables**
+    
    Open the `.env` file and add the following lines to define the activity states for your application. Replace the placeholder `your_activity_sid_here` with 
    the actual `activitySid` values you collected from Twilio TaskRouter:
 
@@ -37,5 +42,50 @@
    REACT_APP_ACTIVITY_SID_OFFLINE=your_offline_activity_sid_here
    ```
    
-4. **Save the File**  
+5. **Save the File**
+   
    After adding the environment variables, save the `.env` file.
+
+
+## How to Test Locally and Deploy to Flex
+
+### 1. **Test the Application Locally**
+
+Follow the instructions below to test your application locally:
+
+1. **Ensure Environment Variables are Set**
+   
+   Make sure you've added the correct `activitySid` values to your `.env` file.
+
+3. **Install Dependencies**
+   
+   Install the required dependencies by running:
+   
+   - If you're using `npm`:
+     ```bash
+     npm install
+     ```
+   - If you're using `yarn`:
+     ```bash
+     yarn install
+     ```
+
+5. **Start the Local Development Server**
+   
+   Once you have created your plugin development environment, you can navigate into your plugin's code directory and start Flex:
+   
+     ```bash
+     cd custom-dropdown
+     twilio flex:plugins:start
+     ```
+
+7. **Test the Application**
+   
+   Visit [http://localhost:3000](http://localhost:3000) and verify that everything is working as expected.
+
+### 2. **Deploy to Twilio Flex**
+
+To learn how to create and deploy your application to Twilio Flex, please refer to the official documentation:
+
+[Twilio Flex Plugin Quickstart](https://www.twilio.com/docs/flex/quickstart/getting-started-plugin)
+
