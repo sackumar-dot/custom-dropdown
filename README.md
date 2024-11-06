@@ -7,7 +7,7 @@
 
 # Demo
 
-![](/screenshots/ScreenRecording2024-11-06at2.17.39PM-ezgif.com-video-to-gif-converter.png)
+![Demo](./screenshots/ScreenRecording2024-11-06at2.17.39PM-ezgif.com-video-to-gif-converter.gif)
 
 ## How to Add the Activity SID to Your Project
 
