@@ -7,7 +7,7 @@
   margin: auto;
 }
 
-.WAb6bb2cbe2e7f51627bfb641c51acb085 {
+.offline {
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -16,7 +16,7 @@
   margin: auto;
 }
 
-.WA376502d09c3bb7320f860775f02acd63 {
+.available {
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -25,7 +25,7 @@
   margin: auto;
 }
 
-.WAb970ef0e8122eae1ffd1bc07512a6318 {
+.unavailable {
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -34,7 +34,7 @@
   margin: auto;
 }
 
-.WA87eeeb7fe2784b47355ec50b3e4ff666 {
+.break {
   width: 20px;
   height: 20px;
   border-radius: 50%;
