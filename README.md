@@ -7,7 +7,7 @@
 
 # Demo
 
-[![Watch the video](https://raw.githubusercontent.com/yourusername/yourrepository/main/assets/thumbnail.jpg)](https://raw.githubusercontent.com/yourusername/yourrepository/main/assets/video.mp4)
+![](/screenshots/ScreenRecording2024-11-06at2.17.39PM-ezgif.com-video-to-gif-converter.png)
 
 ## How to Add the Activity SID to Your Project
 
