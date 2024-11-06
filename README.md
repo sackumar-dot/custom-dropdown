@@ -1,13 +1,21 @@
-# Flex Plugin to replace the default Worker Activity Dropdown
+# Flex Plugin to Replace the Default Worker Activity Dropdown with Dynamic States and Custom Colors
 
-![](/screenshots/1.jpg)
-![](/screenshots/2.jpg)
-![](/screenshots/3.jpg)
-![](/screenshots/4.jpg)
+This Twilio Flex plugin provides a dynamic dropdown to manage worker activities based on their activitySid. It allows users to switch between available, unavailable, break, and offline states, with customizable colors for each activity.
 
 # Demo
 
 ![Demo](./screenshots/ScreenRecording2024-11-06at2.17.39PM-ezgif.com-video-to-gif-converter.gif)
+
+# Screenshots:
+
+![](/screenshots/1.jpg)
+
+![](/screenshots/2.jpg)
+
+![](/screenshots/3.jpg)
+
+![](/screenshots/4.jpg)
+
 
 ## How to Add the Activity SID to Your Project
 
